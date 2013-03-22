@@ -20,7 +20,7 @@ The following Go program:
 ```go
 package main
 
-import "goon"
+import "<...>/goon"
 
 func main() {
     type Inner struct {
@@ -47,7 +47,7 @@ func main() {
 }
 ```
 
-Will produce this goon output to stdout:
+Will produce this goon to stdout:
 
 ```go
 Lang{
@@ -58,6 +58,7 @@ Lang{
         Field1: "Secret!",
     },
 }
+
 ```
 
 Spec
@@ -75,7 +76,7 @@ Relevant things that need to be integrated here
 - http://en.wikipedia.org/wiki/JSON
 - http://golang.org/ref/spec
 - gofmt
-- SemVer
+- http://semver.org/
 
 Seriously?
 ----------
@@ -92,7 +93,7 @@ More concretely, I hack around with Go ASTs quite often. `parser.ParseFile(...)`
 Did you just steal this template from Tom's TOML?
 -------------------------------------------------
 
-Stealing implies I prevented someone from [owning](https://twitter.com/shurcooL/status/266294572949327872) something. When it comes to digital things, one typically copies. However, it's possible to steal [credit](https://twitter.com/shurcooL/status/266294965053820928) for having created something. I don't think that's the case here since I'm acknowledging Tom's original efforts. :) Thank you Tom, you rock.
+Stealing implies I prevented someone from [owning](https://twitter.com/shurcooL/status/266294572949327872) something. When it comes to digital things, one typically copies. However, it's possible to steal [credit](https://twitter.com/shurcooL/status/266294965053820928) for having created something. I don't think that's the case here since I'm acknowledging Tom's original efforts. Thank you Tom, you rock! :)
 
 Implementations
 ---------------
