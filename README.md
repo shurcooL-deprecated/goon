@@ -15,6 +15,40 @@ Goon aims to be an open standard for human-readable data interchange, primarily 
 Example
 -------
 
+The following Go program:
+
+```go
+package main
+
+import "goon"
+
+func main() {
+    type Inner struct {
+        Field1 string
+        Field2 int
+    }
+    type Lang struct {
+        Name  string
+        Year  int
+        URL   string
+        Inner *Inner
+    }
+
+    x := Lang{
+        Name: "Go",
+        Year: 2009,
+        URL:  "http",
+        Inner: &Inner{
+            Field1: "Secret!",
+        },
+    }
+
+    goon.Dump(x)
+}
+```
+
+Will produce this goon output to stdout:
+
 ```go
 Lang{
     Name: "Go",
