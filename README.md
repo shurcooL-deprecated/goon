@@ -98,6 +98,11 @@ Stealing implies I prevented someone from [owning](https://twitter.com/shurcooL/
 Implementations
 ---------------
 
-If you have an implementation, send a pull request adding to this list. Please note the commit SHA1 or version tag that your parser supports in your readme.
+If you have an implementation, send a pull request adding it to this list. Please note the commit SHA1 or version tag that your parser supports in your readme.
 
 - N/A
+
+License
+-------
+
+- [MIT License](http://opensource.org/licenses/mit-license.php)
