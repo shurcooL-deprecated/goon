@@ -51,7 +51,7 @@ Yeah. I went there.
 But why?
 --------
 
-Because I want programming to be as easy as possible. As long as Go programs cannot easily spit out at least parts of Go code (i.e. variable values) that I can easily look at, take relevant parts out of, modify and paste into new Go programs, there will always be things that are harder than they have to be.
+Because I want programming to be as easy as possible. As long as Go programs cannot easily spit out at least parts of Go code (i.e. variable values) that I can easily look at, cut relevant parts out of, modify and paste into new Go programs, there will always be things that are harder than they have to be.
 
 Did you just steal this template from Tom's TOML?
 -------------------------------------------------
