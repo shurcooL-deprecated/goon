@@ -29,7 +29,7 @@ Lang{
 Spec
 ----
 
-* goon is valid Go code.
+* goon is valid gofmt-ed Go code.
 * goon is a [Go literal](http://golang.org/ref/spec#Literal)
 
 Relevant things that need to be integrated here
