@@ -30,7 +30,7 @@ Spec
 ----
 
 * goon is valid gofmt-ed Go code.
-* goon is a [Go literal](http://golang.org/ref/spec#Literal)
+* goon is a [Go literal](http://golang.org/ref/spec#Literal).
 
 Relevant things that need to be integrated here
 -----------------------------------------------
