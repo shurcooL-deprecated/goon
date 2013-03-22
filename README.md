@@ -102,6 +102,11 @@ If you have an implementation, send a pull request adding it to this list. Pleas
 
 - N/A
 
+Contributing
+------------
+
+Contributions are highly welcome. Think of the objective/motivation as the key, and everything else as the value that is open to any improvements.
+
 License
 -------
 
