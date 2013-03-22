@@ -87,6 +87,8 @@ But why?
 
 Because I want programming to be as easy as possible. As long as Go programs cannot easily spit out at least parts of Go code (i.e. variable values) that I can easily look at, cut relevant parts out of, modify and paste into new Go programs, there will always be things that are harder than they have to be.
 
+More concretely, I hack around with Go ASTs quite often. `parser.ParseFile(...)`, `for _, d := range file.Decls {`, `if f, ok := d.(*ast.FuncDecl); ok {`, `spew.Dump(x);`, that kind of stuff. Right now my iterations are slowed down because I can't easily extract various AST segments that I want to further manipulate.
+
 Did you just steal this template from Tom's TOML?
 -------------------------------------------------
 
