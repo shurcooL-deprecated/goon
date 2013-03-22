@@ -41,6 +41,7 @@ Relevant things that need to be integrated here
 - http://en.wikipedia.org/wiki/JSON
 - http://golang.org/ref/spec
 - gofmt
+- SemVer
 
 Seriously?
 ----------
