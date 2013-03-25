@@ -20,30 +20,30 @@ The following Go program:
 ```go
 package main
 
-import "<...>/goon"
+import ".../goon"
 
 func main() {
-    type Inner struct {
-        Field1 string
-        Field2 int
-    }
-    type Lang struct {
-        Name  string
-        Year  int
-        URL   string
-        Inner *Inner
-    }
+	type Inner struct {
+		Field1 string
+		Field2 int
+	}
+	type Lang struct {
+		Name  string
+		Year  int
+		URL   string
+		Inner *Inner
+	}
 
-    x := Lang{
-        Name: "Go",
-        Year: 2009,
-        URL:  "http",
-        Inner: &Inner{
-            Field1: "Secret!",
-        },
-    }
+	x := Lang{
+		Name: "Go",
+		Year: 2009,
+		URL:  "http",
+		Inner: &Inner{
+			Field1: "Secret!",
+		},
+	}
 
-    goon.Dump(x)
+	goon.Dump(x)
 }
 ```
 
@@ -51,12 +51,12 @@ Will produce this goon to stdout:
 
 ```go
 Lang{
-    Name: "Go",
-    Year: 2009,
-    URL:  "http",
-    Inner: &Inner{
-        Field1: "Secret!",
-    },
+	Name: "Go",
+	Year: 2009,
+	URL:  "http",
+	Inner: &Inner{
+		Field1: "Secret!",
+	},
 }
 
 ```
