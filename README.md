@@ -20,7 +20,7 @@ The following Go program:
 ```go
 package main
 
-import ".../goon"
+import "github.com/shurcooL/go-goon"
 
 func main() {
 	type Inner struct {
@@ -100,7 +100,7 @@ Implementations
 
 If you have an implementation, send a pull request adding it to this list. Please note the commit SHA1 or version tag that your parser supports in your readme.
 
-- N/A
+- Go (@shurcooL) - https://github.com/shurcooL/go-goon - unfinished WIP, sometimes it works
 
 Contributing
 ------------
