@@ -3,10 +3,6 @@ goon
 
 Go Object Notation
 
-Latest tagged version: N/A
-
-Be warned, this spec is changing a lot. Until it's marked as 1.0, you should assume that it is unstable and act accordingly.
-
 Objectives
 ----------
 
@@ -98,9 +94,9 @@ Stealing implies I prevented someone from [owning](https://twitter.com/shurcooL/
 Implementations
 ---------------
 
-If you have an implementation, send a pull request adding it to this list. Please note the commit SHA1 or version tag that your parser supports in your readme.
+If you have an implementation, send a pull request adding it to this list.
 
-- Go (@shurcooL) - https://github.com/shurcooL/go-goon - unfinished WIP, sometimes it works
+- Go (@shurcooL) - https://github.com/shurcooL/go-goon - not completely finished, but mostly works
 
 Contributing
 ------------
