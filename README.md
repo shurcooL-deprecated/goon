@@ -63,8 +63,8 @@ Spec
 * goon is valid gofmt-ed Go code.
 * goon is a [Go literal](http://golang.org/ref/spec#Literal).
 
-Relevant things that need to be integrated here
------------------------------------------------
+Relevant things
+---------------
 
 - https://github.com/davecgh/go-spew/issues/6
 - https://github.com/davecgh/go-spew
@@ -94,7 +94,7 @@ Stealing implies I prevented someone from [owning](https://twitter.com/shurcooL/
 Implementations
 ---------------
 
-If you have an implementation, send a pull request adding it to this list.
+If you have an implementation, please send a pull request adding it to this list.
 
 - Go (@shurcooL) - https://github.com/shurcooL/go-goon - not completely finished, but mostly works
 
