@@ -46,14 +46,15 @@ func main() {
 Will produce this goon to stdout:
 
 ```go
-Lang{
-	Name: "Go",
-	Year: 2009,
-	URL:  "http",
-	Inner: &Inner{
-		Field1: "Secret!",
-	},
-}
+(Lang)(Lang{
+	Name: (string)("Go"),
+	Year: (int)(2009),
+	URL:  (string)("http"),
+	Inner: (*Inner)(&Inner{
+		Field1: (string)("Secret!"),
+		Field2: (int)(0),
+	}),
+})
 
 ```
 
